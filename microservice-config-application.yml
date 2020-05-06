@@ -5,13 +5,13 @@ spring:
 server:
   port: 4001
 spring:
-  profiles: dev
+  profiles: prod
   application:
-    name: microservice-config-dev
+    name: microservice-config-prod
 ---
 server:
   prot: 4002
 spring:
-  profiles: prod
+  profiles: dev
   application:
-    name: microservice-config-prod
+    name: microservice-config-dev
