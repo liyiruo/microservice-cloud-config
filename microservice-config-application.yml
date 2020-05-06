@@ -15,3 +15,12 @@ spring:
   profiles: dev
   application:
     name: microservice-config-dev
+    
+    
+---
+server:
+  prot: 4003
+spring:
+  profiles: test
+  application:
+    name: microservice-config-test
