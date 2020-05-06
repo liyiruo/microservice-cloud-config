@@ -14,7 +14,7 @@ spring:
     
 ---
 server:
-  prot: 4002
+  port: 4002
 spring:
   profiles: dev
   application:
@@ -23,7 +23,7 @@ spring:
     
 ---
 server:
-  prot: 4003
+  port: 4003
 spring:
   profiles: test
   application:
