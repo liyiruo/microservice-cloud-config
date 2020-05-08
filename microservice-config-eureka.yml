@@ -19,7 +19,7 @@ eureka:
     fetch-registry: false
     service-url: #Eureka客户端与Eureka服务端的交互地址，集群版配置对方的地址，单机版配置自己（）
       #      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-      defaultZone: http://eureka6002.com:6002/eureka
+      defaultZone: http://eureka6001.com:6001/eureka
   server:
     enable-self-preservation: false #禁用自我保护模式
 
@@ -41,6 +41,6 @@ eureka:
     fetch-registry: false
     service-url: #Eureka客户端与Eureka服务端的交互地址，集群版配置对方的地址，单机版配置自己（）
       #      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-      defaultZone: http://eureka6002.com:6002/eureka
+      defaultZone: http://eureka6001.com:6001/eureka
   server:
     enable-self-preservation: true #禁用自我保护模式
