@@ -59,7 +59,7 @@ mybatis:
 
 
 spring:
-  profiles:prod
+  profiles: prod
   application:
     name: microservice-product  #这个很重要，以后服务与服务之间互相调用一般都是根据这个name
   datasource:
