@@ -8,6 +8,9 @@ spring:
       name: microservice-config-eureka
 server:
   port: 6001
+
+
+
 eureka:
   instance:
     hostname: eureka6001.com
@@ -25,8 +28,11 @@ spring:
   profiles: prod
   application:
     name: microservice-config-eureka
+
 server:
   port: 6001
+
+
 eureka:
   instance:
     hostname: eureka6001.com
